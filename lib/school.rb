@@ -22,6 +22,5 @@ class School
        @roster.each do |grades, students|
         @roster[grades] = students.sort {|a, b| a <=> b }
        end
-       @roster
     end
 end
